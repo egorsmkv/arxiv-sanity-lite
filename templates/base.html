@@ -5,7 +5,7 @@
 <!-- meta info -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>arxiv-sanity</title>
+<title>arxiv-sanity: audio</title>
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 <!-- Favicon -->
@@ -21,7 +21,7 @@ var user = {{ user | tojson }};
 
 <body>
 <div id="header">
-    <a href="/" id="home-link">arxiv-sanity</a>
+    <a href="/" id="home-link">arxiv-sanity: audio</a>
     <a href="/profile" id="login-link">
         {{ 'profile' if user else 'login' }}
     </a>
