@@ -55,7 +55,7 @@ cs.SC - Symbolic Computation
 cs.SY - Systems and Control'''.splitlines()
 CS = [x.split(' - ')[0] for x in CS]
 CS = ['cat:' + x + '+OR+' for x in CS]
-CS = ''.join(CS)
+CS = ''.join(CS)[:4]
 
 if __name__ == '__main__':
 
